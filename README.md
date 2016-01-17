@@ -17,4 +17,7 @@ cvlc --run-time=10 --play-and-exit --sout='~/foo.ts' rtp://@239.35.10.58:10000
 # enqeue vlc records using atd
 # @see https://blog.sourcefabric.org/en/news/blog/2077/
 
+# check dvb-t tuning state while cvlc is running
+# use the program femon while running clv - which polls the state of the tuner, last column should be FE_HAS_LOCK, which would indicate a tuned img.
+
 ```
